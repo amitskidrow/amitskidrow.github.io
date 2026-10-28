@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="ssdrive-laptop: personal Google Drive connection, file transfer and encrypted backup utilities.">
+  <link rel="canonical" href="https://amitskidrow.github.io/">
+  <link rel="stylesheet" href="/styles.css">
+  <title>ssdrive-laptop · Personal Google Drive tools</title>
+</head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+  <header class="site-header wrap">
+    <a class="brand" href="/" aria-label="ssdrive-laptop home"><span class="mark" aria-hidden="true">sd</span>ssdrive-laptop</a>
+    <nav aria-label="Main navigation"><a href="/" aria-current="page">Overview</a><a href="/privacy/">Privacy</a></nav>
+  </header>
+  <main id="main" class="wrap">
+    <section class="hero">
+      <p class="eyebrow">Personal software · Google Drive integration</p>
+      <h1>A personal utility<br>for Google Drive.</h1>
+      <p class="lead">Connect your own account, check its connection and manage file transfers from a terminal. Related personal recovery tools use the same Google authorization project for encrypted backup data.</p>
+      <div class="links"><a class="button" href="/privacy/">Read the privacy policy <span aria-hidden="true">↗</span></a><a href="https://github.com/amitskidrow/amitskidrow.github.io/issues">Contact the maintainer</a></div>
+    </section>
+    <section class="section" aria-labelledby="workflow">
+      <div class="section-heading"><p class="eyebrow">How it works</p><h2 id="workflow">Your account, your operations.</h2></div>
+      <div class="cards">
+        <article><span class="number" aria-hidden="true">01</span><h3>Authorize with Google</h3><p>Choose your account in Google's browser sign-in flow and review the requested permissions. The terminal tools use rclone to obtain and renew access.</p></article>
+        <article><span class="number" aria-hidden="true">02</span><h3>Run your transfers</h3><p>The tools run on machines controlled by the operator. They support selected uploads, retrieval and encrypted recovery workflows. This website provides information about those tools.</p></article>
+        <article><span class="number" aria-hidden="true">03</span><h3>Keep control of access</h3><p>Credentials and encryption keys stay in the operator's private configuration. Access can be revoked through your Google Account. Existing files remain until you remove them.</p></article>
+      </div>
+    </section>
+    <section class="section note" aria-labelledby="access">
+      <p class="eyebrow">Permission and encryption</p><h2 id="access">Understand the access you grant.</h2>
+      <p>The tools can request full Google Drive access so that they can work with existing files and backup locations. The media transfer workflow uses rclone crypt; recovery workflows encrypt backup data. Encryption does not conceal all account, size or timing metadata from the storage provider.</p>
+      <p><a href="/privacy/">Read how Google data and credentials are handled →</a></p>
+    </section>
+    <section class="section contact" aria-labelledby="contact">
+      <p class="eyebrow">Maintainer</p><h2 id="contact">Built for personal use.</h2>
+      <p>Maintained by <a href="https://github.com/amitskidrow">amitskidrow</a>. Questions and privacy requests can be raised through the <a href="https://github.com/amitskidrow/amitskidrow.github.io/issues">website repository's issue tracker</a>. Keep credentials and private files out of public issues.</p>
+    </section>
+  </main>
+  <footer class="site-footer wrap"><span>ssdrive-laptop</span><a href="/privacy/">Privacy policy</a><span>Updated 28 October 2026</span></footer>
+</body>
+</html>
